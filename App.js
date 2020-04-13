@@ -1,6 +1,13 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
 
+import Feed from "./src/components/Feed";
+
+export default function App() {
+  return <Feed></Feed>;
+}
+
+/*
 export default function App() {
   return (
     <View style={styles.container}>
@@ -17,3 +24,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+*/
